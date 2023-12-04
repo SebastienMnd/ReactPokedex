@@ -1,0 +1,36 @@
+.application {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.pokemons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	width: 90%;
+
+	min-height: 15vh;
+
+	border-bottom: 1px solid #494949;
+	border-left: 1px solid #494949;
+	border-right: 1px solid #494949;
+	border-radius: 0 0 1em 1em;
+	box-shadow: 5px 5px 16px -5px #a0a0a0;
+	padding: 0 2em;
+}
+
+.pokemons .list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	gap: 2px;
+}
+
+.pokemons .list button {
+	text-transform: capitalize;
+}
